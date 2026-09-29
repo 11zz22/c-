@@ -1,0 +1,28 @@
+# 编译产物
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+
+# 用户文件
+*.user
+*.suo
+*.wsuo
+
+# 编译结果
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# 日志
+*.log
+debug.log
+
+# 安装包
+*.exe
+
+# 其他
+*.vsidx
+*.sqlite
