@@ -1,16 +1,14 @@
-# 编译产物
-[Bb]in/
-[Oo]bj/
+# 所有 bin/obj（任何层级）
+**/bin/
+**/obj/
 
-# Visual Studio
-.vs/
-
-# 用户文件
+# VS
+**/.vs/
 *.user
 *.suo
 *.wsuo
 
-# 编译结果
+# 编译产物
 *.dll
 *.exe
 *.pdb
@@ -18,11 +16,16 @@
 
 # 日志
 *.log
-debug.log
-
-# 安装包
-*.exe
 
 # 其他
 *.vsidx
 *.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# 安装包
+*.exe
+
+# 临时
+*.tmp

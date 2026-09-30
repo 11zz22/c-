@@ -1,1 +1,1 @@
-﻿Expression<Func<int, bool>> lambda = num => num < 5;
+﻿
